@@ -18,7 +18,7 @@ export const GET_USERS_LOCAL = gql`
     }
   }
 `
-export const GET_USERSIDS = gql`
+export const GET_USERIDS = gql`
   query GetUserIds {
     users(order_by: { created_at: desc }) {
       id
